@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/text.dart';
 import 'package:halal_resto/first page/restopage.dart';
 import 'package:halal_resto/first%20page/announcement.dart';
+import 'package:halal_resto/first%20page/announcement3.dart';
 import 'package:halal_resto/first%20page/restopage2.dart';
 import 'package:halal_resto/first%20page/restopage3.dart';
 import 'package:halal_resto/first%20page/restopage4.dart';
@@ -128,7 +129,7 @@ class _FoodList3State extends State<FoodList3> {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Announcement()),
+              MaterialPageRoute(builder: (context) => Announcement3()),
             );
           },
           child: Container(
@@ -207,7 +208,7 @@ class _FoodList3State extends State<FoodList3> {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Announcement()),
+              MaterialPageRoute(builder: (context) => Announcement3()),
             );
           },
           child: Container(
@@ -285,7 +286,7 @@ class _FoodList3State extends State<FoodList3> {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Announcement()),
+              MaterialPageRoute(builder: (context) => Announcement3()),
             );
           },
           child: Container(
@@ -363,7 +364,7 @@ class _FoodList3State extends State<FoodList3> {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Announcement()),
+              MaterialPageRoute(builder: (context) => Announcement3()),
             );
           },
           child: Container(
@@ -441,7 +442,7 @@ class _FoodList3State extends State<FoodList3> {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Announcement()),
+              MaterialPageRoute(builder: (context) => Announcement3()),
             );
           },
           child: Container(
