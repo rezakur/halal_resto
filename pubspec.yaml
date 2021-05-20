@@ -49,8 +49,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/logo hr 1.png
-    - assets/logo hr 2.png
     - assets/logo hr 3.png
     - assets/F&B (1).jpg
     - assets/F&B (2).jpg
@@ -83,7 +81,6 @@ flutter:
     - assets/roti maryam.jpg
     - assets/mutabbaq.jpg
     - assets/samosa.jpg
-    - assets/malaysia2.jpg
     - assets/nasi kandar.jpg
     - assets/nasi kerabu.jpg
     - assets/nasi lemak.jpg

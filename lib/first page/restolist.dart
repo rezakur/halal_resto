@@ -63,8 +63,8 @@ class _RestoListState extends State<RestoList> {
                     SizedBox(
                       height: 20,
                     ),
-                    placesWidget4("assets/resto 4", "Malaysian Melayu Food",
-                        "Masakan melayu kaki lima, rasa bintang lima"),
+                    // placesWidget4("assets/resto 4", "Malaysian Melayu Food",
+                    //     "Masakan melayu kaki lima, rasa bintang lima"),
                     SizedBox(
                       height: 20,
                     ),
@@ -312,84 +312,84 @@ class _RestoListState extends State<RestoList> {
       ],
     );
   }
-  Row placesWidget4(String img, String name, String capt) {
-    return Row(
-      children: [
-        Container(
-          height: 100,
-          width: 100,
-          decoration: BoxDecoration(
-              image: DecorationImage(image: AssetImage("$img.jpg"))),
-        ),
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                "$name",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
-              ),
-              Row(
-                children: [
-                  Icon(
-                    Icons.star,
-                    size: 20,
-                    color: Colors.orange,
-                  ),
-                  Icon(
-                    Icons.star,
-                    size: 20,
-                    color: Colors.orange,
-                  ),
-                  Icon(
-                    Icons.star,
-                    size: 20,
-                    color: Colors.orange,
-                  ),
-                  Icon(
-                    Icons.star,
-                    size: 20,
-                    color: Colors.orange,
-                  ),
-                  Icon(
-                    Icons.star,
-                    size: 20,
-                    color: Colors.orange,
-                  ),
-                ],
-              ),
-              Text(
-                "$capt",
-                style: TextStyle(fontSize: 12),
-              )
-            ],
-          ),
-        ),
-        InkWell(
-          // onTap: () => Navigator.of(context).push(new MaterialPageRoute(
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => RestoPage4()),
-            );
-          },
-          child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(40)),
-                color: Color(0xff00d672)),
-            child: Text(
-              "Kunjungi",
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 12,
-                  fontWeight: FontWeight.w700),
-            ),
-          ),
-        ),
-      ],
-    );
-  }
+  // Row placesWidget4(String img, String name, String capt) {
+  //   return Row(
+  //     children: [
+  //       Container(
+  //         height: 100,
+  //         width: 100,
+  //         decoration: BoxDecoration(
+  //             image: DecorationImage(image: AssetImage("$img.jpg"))),
+  //       ),
+  //       Expanded(
+  //         child: Column(
+  //           crossAxisAlignment: CrossAxisAlignment.start,
+  //           children: [
+  //             Text(
+  //               "$name",
+  //               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+  //             ),
+  //             Row(
+  //               children: [
+  //                 Icon(
+  //                   Icons.star,
+  //                   size: 20,
+  //                   color: Colors.orange,
+  //                 ),
+  //                 Icon(
+  //                   Icons.star,
+  //                   size: 20,
+  //                   color: Colors.orange,
+  //                 ),
+  //                 Icon(
+  //                   Icons.star,
+  //                   size: 20,
+  //                   color: Colors.orange,
+  //                 ),
+  //                 Icon(
+  //                   Icons.star,
+  //                   size: 20,
+  //                   color: Colors.orange,
+  //                 ),
+  //                 Icon(
+  //                   Icons.star,
+  //                   size: 20,
+  //                   color: Colors.orange,
+  //                 ),
+  //               ],
+  //             ),
+  //             Text(
+  //               "$capt",
+  //               style: TextStyle(fontSize: 12),
+  //             )
+  //           ],
+  //         ),
+  //       ),
+  //       InkWell(
+  //         // onTap: () => Navigator.of(context).push(new MaterialPageRoute(
+  //         onTap: () {
+  //           Navigator.push(
+  //             context,
+  //             MaterialPageRoute(builder: (context) => RestoPage4()),
+  //           );
+  //         },
+  //         child: Container(
+  //           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+  //           decoration: BoxDecoration(
+  //               borderRadius: BorderRadius.all(Radius.circular(40)),
+  //               color: Color(0xff00d672)),
+  //           child: Text(
+  //             "Kunjungi",
+  //             style: TextStyle(
+  //                 color: Colors.white,
+  //                 fontSize: 12,
+  //                 fontWeight: FontWeight.w700),
+  //           ),
+  //         ),
+  //       ),
+  //     ],
+  //   );
+  // }
   Row placesWidget5(String img, String name, String capt) {
     return Row(
       children: [
